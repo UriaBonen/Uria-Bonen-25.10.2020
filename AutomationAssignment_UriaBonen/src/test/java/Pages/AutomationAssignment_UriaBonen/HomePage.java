@@ -18,6 +18,7 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 	}
+
 	WebDriver driver;
 	private By sendButton =By.xpath("//*[@class='Footer__Button-sc-159s1ql-7 kOOAFW']");
 	private By whatsAppButton =By.xpath("//*[@class='callUsWhatsapp__BtnWhatsapp-rkzbui-0 cjunrQ']");

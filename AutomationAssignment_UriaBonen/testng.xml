@@ -3,7 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestCases.contactUsForHelp"/>
+      <class name="TestCases.contactForCompanies"/>
+      <class name="TestCases.WhatsAppButton"/>
+      <class name="TestCases.popUpPage_testCases"/>
+      <class name="TestCases.contactForHelp_testCases"/>
+      <class name="TestCases.ThankYouPages_testCases"/>
+      <class name="TestCases.homePage_testCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -10,6 +10,7 @@ import Pages.AutomationAssignment_UriaBonen.contactForHelpPage;
 import Pages.AutomationAssignment_UriaBonen.contactingCompanies;
 
 public class contactForHelp_testCases {
+	
 	@Test
 	public void sendProperContacting() throws Exception {
 		System.setProperty("webdriver.chrome.driver","C:\\eclipse\\Selenium\\chromeDriver_\\chromedriver.exe");

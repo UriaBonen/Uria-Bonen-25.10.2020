@@ -25,9 +25,6 @@ public class contactForCompanies {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);				
 		contaCompanies.isThankYouPage();
 		driver.close();
-		
-		
-		
 	}
 
 	@Test

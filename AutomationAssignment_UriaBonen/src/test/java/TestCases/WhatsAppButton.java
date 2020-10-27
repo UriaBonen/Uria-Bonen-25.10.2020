@@ -22,6 +22,7 @@ public class WhatsAppButton  {
 		HomePage homePage=new HomePage(driver);
 		homePage.clickOnWhatsAppButton();
 	}
+
 	@Test
 	public void whatsAppIconeIsStuck() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","C:\\eclipse\\Selenium\\chromeDriver_\\chromedriver.exe");
@@ -30,8 +31,6 @@ public class WhatsAppButton  {
 		driver.manage().window().maximize();
 		HomePage homePage=new HomePage(driver);
 		homePage.whatsAppIconIsStuck();
-
-
 	}
 
 }

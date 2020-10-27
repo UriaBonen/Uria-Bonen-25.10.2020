@@ -16,12 +16,8 @@ public class homePage_testCases {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://automation.herolo.co.il");
 		driver.manage().window().maximize();
-		
 		HomePage hp=new HomePage(driver);
 		hp.clickOnPageUpButton();
 	    driver.close();
-	
-	
-	
 	}
 }

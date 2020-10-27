@@ -8,19 +8,18 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 public class contactingCompanies {
-	WebDriver driver2;
 
 	public contactingCompanies(WebDriver driver2) {
 		super();
 		this.driver2 = driver2;
 	}
 
+	WebDriver driver2;
 	private By _name =By.id("name");
 	private By _email =By.id("email");
 	private By _phone =By.id("telephone");
 	private By _company =By.id("company");
 	private By sendButton=By.xpath("//*[@class='commun__Button-zi6nvq-0 commun__ButtonContact-zi6nvq-1 form__ButtonContact-y0ft28-1 llCdxe']");
-
 
 	public void enterProperValues(String name, String email, String telephone, String company) throws Exception {
 		WebElement wb= driver2.findElement(By.id("section-inputs"));

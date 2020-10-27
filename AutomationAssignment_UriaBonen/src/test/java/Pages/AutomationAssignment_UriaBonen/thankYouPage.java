@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class thankYouPage {
+	
 	WebDriver driver3;
-
 	private By ThankYouButton =By.xpath("//*[@class='thankYou__button-avz2fr-9 fIeAdZ']");
 	private By backButton =By.xpath("//*[@class='thankYou__backLink-avz2fr-10 bBzcJF']");
 	
