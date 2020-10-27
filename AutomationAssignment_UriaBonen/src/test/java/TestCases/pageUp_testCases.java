@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import Pages.AutomationAssignment_UriaBonen.HomePage;
 
-public class homePage_testCases {
+public class pageUp_testCases {
 	
 	@Test
 	public void pageUpButtonCheck() throws InterruptedException {
@@ -20,4 +20,8 @@ public class homePage_testCases {
 		hp.clickOnPageUpButton();
 	    driver.close();
 	}
+
+	
+	
+
 }
